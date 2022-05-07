@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CartPage</title>
+    <script type="text/javascript" src="./../js/project.js"></script>
+    <link rel="stylesheet" href="./../style/cartPage.css" />
+    <style>
+      button:hover {
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+
+    </style>
+  </head>
+  <body onload="displayCartItem();return false;">
+    <div>
+      <h2>Your Products</h2>
+      <div id="product_list">
+        <table id="product_table"></table>
+      </div>
+      <h2>Total Price: <b id="total_price"></b></h2>
+      <div style="text-align: center">
+        <button
+          style="
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: aqua;
+          "
+          onclick="toBuy();return false;"
+        >
+          Buy Now
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

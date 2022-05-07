@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+.delete_button{
+    float: right;
+    margin-top: 10px;
+}
+h1{
+    font-size: smaller;
+}
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  form{
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  img{
+      width: 100px;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  

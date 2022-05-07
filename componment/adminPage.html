@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./../style/admin_page.css">
+    <script type="text/javascript" src="./../js/project.js"></script>
+</head>
+<body onload="displayProducts();return false;">
+    <div>
+        <h1>Product List</h1>
+        <br>
+        <div id="product-list">
+            <table id="product_table">
+
+            </table>
+        </div>
+    </div>
+    <br>
+    <h1>Add New Product</h1>
+    <form action="#" id="add_product" onsubmit="addproduct();return false">
+        <label for="product_name" >Product Name : </label>
+        <input type="text" name="product_name" id="" required>
+        <label for="description">Description : </label>
+        <input type="text" name="description" id="" required>
+        <label for="price">Price $ : </label>
+        <input type="number" name="price" id="" required>
+        <label for="img_url">Image URL : </label>
+        <input type="url" name="img_url" id="" required>
+        <input type="submit" value="Add New Product">
+    </form>
+</body>
+</html>
